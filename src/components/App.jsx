@@ -11,9 +11,6 @@ import arrow_top from './icons8-стрелка-вверх-50.png';
 
 export const App = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [img, setImg] = useState('');
-  const [openImg, setOpenImg] = useState(false);
-  const [bodyOverflow, setBodyOverflow] = useState('visible');
 
   const handleScroll = () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -31,9 +28,6 @@ export const App = () => {
   }, []);
 
 
-  useEffect(() => {
-    document.body.style.overflow = bodyOverflow;
-  }, [bodyOverflow]);
 
   // if (openImg === true) {
   //   document.body.style.overflow = 'hidden';
