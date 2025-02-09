@@ -26,7 +26,7 @@ export const MENU_BUTTON = styled.span`
   cursor: pointer;
   width: 25px;
   height: 3px;
-  background-color: #fff;
+  background-color: #c29b3e;
   transition: all 0.5s ease;
   z-index: 2;
 
@@ -36,7 +36,7 @@ export const MENU_BUTTON = styled.span`
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #c29b3e;
     transition: all 0.3s ease;
   }
 
@@ -106,8 +106,8 @@ export const BUTTON = styled.button`
   height: 40px;
   padding-left: 30px;
   padding-right: 30px;
-  color: #000000;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #c29b3e;
   font-size: 16px;
   font-family: 'Russo One', sans-serif;
   font-weight: 400;

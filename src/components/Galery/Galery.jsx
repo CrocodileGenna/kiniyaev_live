@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { GALERY, MAIN_PHOTO, CONTAIN_DIV, LIST_PHOTO } from './Galery.styled';
 
-import photo1 from './img/395198181.png';
-import photo2 from './img/Screenshot_5.png';
-import photo3 from './img/Screenshot_7.png';
-import photo4 from './img/367785329.png';
-import photo5 from './img/Screenshot_6.png';
+import photo1 from './img/openart-image_7T530WRg_1739086217242_raw.png';
+import photo2 from './img/openart-image_Kr34oWb1_1739085891510_raw.png';
+import photo3 from './img/openart-image_T-UR7Wje_1739086241124_raw.png';
+import photo4 from './img/openart-image_V3ScPrDy_1739085538628_raw.png';
+import photo5 from './img/openart-image_hi84rdfk_1739085264889_raw.png';
 
 const photos = [photo4, photo5, photo3, photo2, photo1];
 export const Galery = () => {

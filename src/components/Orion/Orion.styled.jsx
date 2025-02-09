@@ -71,14 +71,14 @@ export const PAG_DIV = styled.div`
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: ${props => (props.active ? '#1779fa' : '#ccc')};
+  background-color: ${props => (props.active ? '#c29b3e' : '#ccc')};
   margin: 0 5px;
   cursor: pointer;
   transition: all 0.4s ease;
 
   :hover,
   :focus {
-    background-color: ${props => (props.active ? '#1779fa' : '#999')};
+    background-color: ${props => (props.active ? '#c29b3e' : '#999')};
     cursor: pointer;
   }
 `;
@@ -211,7 +211,7 @@ export const PURCHASE_BUTTON = styled.button`
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  background-color: #1779fa;
+  background-color: #c29b3e;
   :hover,
   :focus {
     cursor: pointer;

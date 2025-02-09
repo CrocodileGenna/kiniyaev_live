@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import photo1 from './img/395198181.png';
-import photo2 from './img/Screenshot_5.png';
-import photo3 from './img/Screenshot_7.png';
+import photo1 from './img/flux_dev_a_highly_detailed_photorealistic_3d_render_of_a_middl_1_ee617f03-a108-4f36-a663-3dde6bb6f133.jpeg';
+import photo2 from './img//flux_dev_highly_detailed_photorealistic_3d_render_of_a_middlea_0_837209cf-1569-4f14-aa92-642b12718129.jpeg';
+import photo3 from './img/flux_dev_highly_detailed_photorealistic_3d_render_of_a_middlea_3_2443b5c9-c9d1-4f41-a707-06f7f98e980b.jpeg';
 import next from './img/caret-left-duotone-svgrepo-com.svg';
 import previous from './img/caret-right-duotone-svgrepo-com.svg';
 import {
@@ -23,7 +23,7 @@ import {
   PURCHASE_BUTTON,
 } from './Orion.styled';
 const photos = [photo1, photo2, photo3];
-const colors = ['Чорний', 'Білий'];
+const colors = ['PRO-version', 'BEGINER-version'];
 
 export const Orion = () => {
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
@@ -76,17 +76,15 @@ export const Orion = () => {
         </PAGINATION>
       </PHOTO_DIV>
       <INFO_DIV>
-        <TITLE_P>Proove Orion</TITLE_P>
+        <TITLE_P>Обьщая информация</TITLE_P>
         <DOP_INFO data-customstyle="yes">
-          Навушники Proove Orion - ваш надійний супутник у світі звуку та
-          зв'язку, забезпечуючи якісний звук та комфортне спілкування у
-          будь-якому місці, що створює неповторний аудіо-досвід.
+        Кинияев Фома Сергеевич – чоловік середнього року, 42 роки. Родился и вырос в небольшом промышленном городе, где с детства привык к заводскому гулу, запаху машинного масла и металлической пыли. Суровые будни его не пугали – он рано понял, что путь к стабильности лежить через терпение и упорный труд.
         </DOP_INFO>
         <SALE>
           799грн.<PRICE>1299грн.</PRICE>
         </SALE>
         <CHOICE_DIV>
-          <COLOR>Кольори:</COLOR>
+          <COLOR> Варианти курсів:</COLOR>
           <SELECT
             id="colorSelect"
             value={selectedColor}
